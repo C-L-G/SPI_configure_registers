@@ -5,6 +5,7 @@
  1. spi_ctrl_master 控制器顶层，里面包含一个完整的spi slaver模块和spi数据解析成控制信号的模块（spi_to_cfg)
  2. spi_to_cfg 把SPI数据解析成配置寄存器的控制信号
  3. spi_cfg_interface 定义配置的接口和，读写寄存器
+ 4. 还需要spi_slaver的代码,[链接]<https://github.com/C-L-G/spi-phy>
 
 
  **读写协议定义：**
